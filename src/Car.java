@@ -12,7 +12,7 @@ public class Car implements Vehicle {
         this.ageLimit = 18;
         this.driveDistance = 10;
 
-        System.out.println("Car created. " + this.getToGo() + " miles to go!");
+        System.out.println("Car created. " + toGo + " miles to go!");
     }
 
     public int getToGo() {
